@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "Selçuk K.",
+      "comment": "Aracı almadan önce getirdim, tüm detaylarıyla anlattılar. Güvenilir bir işletme.",
+      "rating": 5,
+      "photo": "assets/images/testimonials/testimonial-1.jpg"
+    },
+    {
+      "name": "Merve A.",
+      "comment": "Raporu dijital olarak aldım, her kalemi net gördüm. Hızlı ve profesyoneller.",
+      "rating": 5,
+      "photo": "assets/images/testimonials/testimonial-2.jpg"
+    },
+    {
+      "name": "Cemal Ö.",
+      "comment": "Dyno testi sayesinde aracı doğru fiyata aldım. Süreç çok şeffaftı.",
+      "rating": 5,
+      "photo": "assets/images/testimonials/testimonial-3.jpg"
+    }
+  ]
+}

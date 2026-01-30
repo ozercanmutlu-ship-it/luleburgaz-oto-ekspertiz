@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lüleburgaz Oto Ekspertiz | İçerik Yönetimi</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script src="https://unpkg.com/decap-cms-local-backend@^1.0.0/dist/decap-cms-local-backend.js"></script>
+    <script>
+      if (window.CMS && window.localBackend) {
+        window.CMS.registerBackend("local", window.localBackend);
+      }
+    </script>
+  </body>
+</html>

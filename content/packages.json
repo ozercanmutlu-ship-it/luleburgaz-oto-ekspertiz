@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "Ekonomik",
+      "price": "Fiyat Sorunuz",
+      "features": ["Motor kontrolü", "Kaporta & boya", "OBD elektronik tarama"],
+      "recommended": false
+    },
+    {
+      "name": "Standart",
+      "price": "Fiyat Sorunuz",
+      "features": ["Ekonomik paket +", "Dyno performans testi", "Fren performans ölçümü"],
+      "recommended": false
+    },
+    {
+      "name": "Premium",
+      "price": "Fiyat Sorunuz",
+      "features": ["Full kapsamlı ekspertiz", "Airbag kontrolü", "Süspansiyon testi", "Detaylı dijital rapor", "Öncelikli hizmet"],
+      "recommended": true
+    }
+  ]
+}

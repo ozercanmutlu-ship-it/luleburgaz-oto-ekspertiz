@@ -1,0 +1,100 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "site_settings"
+    label: "Site Settings"
+    files:
+      - file: "content/site-settings.json"
+        label: "Site Settings"
+        name: "site-settings"
+        format: "json"
+        fields:
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "WhatsApp", name: "whatsapp", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Working Hours", name: "working_hours", widget: "text" }
+
+  - name: "hero"
+    label: "Hero Section"
+    files:
+      - file: "content/hero.json"
+        label: "Hero"
+        name: "hero"
+        format: "json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "text" }
+          - { label: "Badge Text", name: "badge_text", widget: "string" }
+          - { label: "Hero Image", name: "hero_image", widget: "image" }
+
+  - name: "services"
+    label: "Services"
+    files:
+      - file: "content/services.json"
+        label: "Services"
+        name: "services"
+        format: "json"
+        fields:
+          - label: "Services"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+
+  - name: "packages"
+    label: "Packages"
+    files:
+      - file: "content/packages.json"
+        label: "Packages"
+        name: "packages"
+        format: "json"
+        fields:
+          - label: "Packages"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+              - label: "Features"
+                name: "features"
+                widget: "list"
+                field: { label: "Feature", name: "feature", widget: "string" }
+              - { label: "Recommended", name: "recommended", widget: "boolean", default: false }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    files:
+      - file: "content/testimonials.json"
+        label: "Testimonials"
+        name: "testimonials"
+        format: "json"
+        fields:
+          - label: "Testimonials"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Comment", name: "comment", widget: "text" }
+              - { label: "Rating", name: "rating", widget: "number", value_type: "int", min: 1, max: 5 }
+              - { label: "Photo", name: "photo", widget: "image" }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Cover Image", name: "cover_image", widget: "image" }
+      - { label: "Content", name: "content", widget: "markdown" }

@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "Motor Ekspertizi",
+      "description": "Motor performansı, kompresyon ve mekanik risklerin detaylı analizi.",
+      "image": "assets/images/services/service-motor.jpg"
+    },
+    {
+      "title": "Kaporta & Boya Analizi",
+      "description": "Boya kalınlığı ölçümü, değişen parça tespiti ve şasi kontrolü.",
+      "image": "assets/images/services/service-kaporta.jpg"
+    },
+    {
+      "title": "Dyno Performans Testi",
+      "description": "Beygir gücü, tork ve performans kaybının ölçümlenmesi.",
+      "image": "assets/images/services/service-dyno.jpg"
+    },
+    {
+      "title": "OBD Elektronik Tarama",
+      "description": "Elektronik kontrol ünitelerinde arıza kodlarının taranması.",
+      "image": "assets/images/services/service-obd.jpg"
+    },
+    {
+      "title": "Fren Testi",
+      "description": "Fren sistemi performansının güvenlik odaklı analizi.",
+      "image": "assets/images/services/service-fren.jpg"
+    },
+    {
+      "title": "Süspansiyon Testi",
+      "description": "Yol tutuş ve süspansiyon bileşenlerinin kontrolü.",
+      "image": "assets/images/services/service-suspansiyon.jpg"
+    },
+    {
+      "title": "Airbag Kontrolü",
+      "description": "Güvenlik sistemleri ve airbag kontrolünün doğrulanması.",
+      "image": "assets/images/services/service-airbag.jpg"
+    },
+    {
+      "title": "Yanal Kayma Testi",
+      "description": "Şasi dengesi ve yön stabilitesi için yanal kayma ölçümü.",
+      "image": "assets/images/services/service-yanal.jpg"
+    }
+  ]
+}
