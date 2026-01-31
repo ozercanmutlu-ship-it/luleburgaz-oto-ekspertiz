@@ -6,49 +6,6 @@
     <title>Lüleburgaz Oto Ekspertiz | İçerik Yönetimi</title>
   </head>
   <body>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script>
-      (function () {
-        var redirectTo = window.location.origin + "/admin/";
-        function goGithub() {
-          window.location.href =
-            "/.netlify/identity/authorize?provider=github&redirect=" +
-            encodeURIComponent(redirectTo);
-        }
-
-        function initIdentity() {
-          if (!window.netlifyIdentity) return false;
-
-          window.netlifyIdentity.on("init", function (user) {
-            if (!user) goGithub();
-          });
-
-          window.netlifyIdentity.init();
-          return true;
-        }
-
-        if (!initIdentity()) {
-          var tries = 0;
-          var t = setInterval(function () {
-            tries++;
-            if (initIdentity() || tries > 40) clearInterval(t);
-          }, 250);
-        }
-      })();
-    </script>
-    <script>window.CMS_MANUAL_INIT = true;</script>
     <script src="https://unpkg.com/decap-cms@3.0.0/dist/decap-cms.js"></script>
-    <script>
-      CMS.init({
-        backend: { name: "git-gateway" },
-        login: { provider: "github" }
-      });
-    </script>
-    <script src="https://unpkg.com/decap-cms-local-backend@^1.0.0/dist/decap-cms-local-backend.js"></script>
-    <script>
-      if (window.CMS && window.localBackend) {
-        window.CMS.registerBackend("local", window.localBackend);
-      }
-    </script>
   </body>
 </html>
