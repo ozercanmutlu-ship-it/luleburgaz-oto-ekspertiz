@@ -1009,10 +1009,16 @@ footer {
     transform: translateX(100%);
     transition: transform var(--transition);
     box-shadow: -20px 0 40px rgba(0, 0, 0, 0.4);
+    z-index: 1001;
   }
 
+  .site-nav.is-open,
   body.nav-open .site-nav {
     transform: translateX(0);
+  }
+
+  .site-nav a {
+    color: #fff;
   }
 
   .nav-toggle {
