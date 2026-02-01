@@ -3,8 +3,8 @@ const PROMO_STORAGE_KEY = "loePromoDismissed";
 
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.querySelector(".site-header");
-  const navToggle = document.querySelector(".nav-toggle");
-  const nav = document.querySelector(".site-nav");
+  const navToggle = document.querySelector("#mobileMenuBtn") || document.querySelector(".nav-toggle");
+  const nav = document.querySelector("#mobileMenu") || document.querySelector(".site-nav");
   const body = document.body;
 
   const setHeaderState = () => {
