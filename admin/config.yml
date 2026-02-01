@@ -35,66 +35,78 @@ collections:
           - { label: "Hero Image", name: "hero_image", widget: "image" }
 
   - name: "services"
-    label: "Services"
+    label: "Hizmetler"
+    label_singular: "Hizmet"
     files:
       - file: "content/services.json"
-        label: "Services"
+        label: "Hizmetler"
         name: "services"
         format: "json"
         fields:
-          - label: "Services"
+          - label: "Hizmetler"
             name: "items"
             widget: "list"
+            summary: "{{fields.title}} — {{fields.shortDescription}}"
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
-              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Kısa Açıklama", name: "shortDescription", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+              - { label: "Görsel", name: "image", widget: "image" }
 
   - name: "packages"
-    label: "Packages"
+    label: "Paketler"
+    label_singular: "Paket"
     files:
       - file: "content/packages.json"
-        label: "Packages"
+        label: "Paketler"
         name: "packages"
         format: "json"
         fields:
-          - label: "Packages"
+          - label: "Paketler"
             name: "items"
             widget: "list"
+            summary: "{{fields.name}} — {{fields.price}}"
             fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Paket Adı", name: "name", widget: "string" }
+              - { label: "Fiyat", name: "price", widget: "string" }
               - label: "Features"
                 name: "features"
                 widget: "list"
                 field: { label: "Feature", name: "feature", widget: "string" }
-              - { label: "Recommended", name: "recommended", widget: "boolean", default: false }
+              - { label: "Önerilen", name: "recommended", widget: "boolean", default: false }
 
   - name: "testimonials"
-    label: "Testimonials"
+    label: "Yorumlar"
+    label_singular: "Yorum"
     files:
       - file: "content/testimonials.json"
-        label: "Testimonials"
+        label: "Yorumlar"
         name: "testimonials"
         format: "json"
         fields:
-          - label: "Testimonials"
+          - label: "Yorumlar"
             name: "items"
             widget: "list"
+            summary: "{{fields.name}} — {{fields.company}}"
             fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Comment", name: "comment", widget: "text" }
-              - { label: "Rating", name: "rating", widget: "number", value_type: "int", min: 1, max: 5 }
-              - { label: "Photo", name: "photo", widget: "image" }
+              - { label: "İsim", name: "name", widget: "string" }
+              - { label: "Firma", name: "company", widget: "string" }
+              - { label: "Yorum", name: "comment", widget: "text" }
+              - { label: "Puan", name: "rating", widget: "number", value_type: "int", min: 1, max: 5 }
+              - { label: "Fotoğraf", name: "photo", widget: "image" }
 
   - name: "blog"
-    label: "Blog"
+    label: "Blog Yazıları"
+    label_singular: "Blog Yazısı"
+    identifier_field: "title"
     folder: "content/blog"
     create: true
     format: "json"
     slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Cover Image", name: "cover_image", widget: "image" }
-      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: true, pattern: ["^[a-z0-9-]+$", "Küçük harf, sayı ve tire kullanın."] }
+      - { label: "Tarih", name: "date", widget: "datetime" }
+      - { label: "Kapak Görseli", name: "cover_image", widget: "image" }
+      - { label: "İçerik", name: "content", widget: "markdown" }

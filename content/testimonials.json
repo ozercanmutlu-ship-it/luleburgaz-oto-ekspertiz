@@ -2,21 +2,38 @@
   "items": [
     {
       "name": "Selçuk K.",
+      "company": "Luleburgaz",
       "comment": "Aracı almadan önce getirdim, tüm detaylarıyla anlattılar. Güvenilir bir işletme.",
       "rating": 5,
       "photo": "assets/images/testimonials/testimonial-1.jpg"
     },
     {
       "name": "Merve A.",
+      "company": "Trakya",
       "comment": "Raporu dijital olarak aldım, her kalemi net gördüm. Hızlı ve profesyoneller.",
       "rating": 5,
       "photo": "assets/images/testimonials/testimonial-2.jpg"
     },
     {
       "name": "Cemal Ö.",
+      "company": "Luleburgaz",
       "comment": "Dyno testi sayesinde aracı doğru fiyata aldım. Süreç çok şeffaftı.",
       "rating": 5,
       "photo": "assets/images/testimonials/testimonial-3.jpg"
+    },
+    {
+      "name": "Ayse T.",
+      "company": "Babaeski",
+      "comment": "Kaporta ve boya raporu netti, pazarlikta elim guclendi.",
+      "rating": 4,
+      "photo": "/assets/images/uploads/package-placeholder.jpg"
+    },
+    {
+      "name": "Mehmet R.",
+      "company": "Corlu",
+      "comment": "Hizli randevu ve detayli rapor. Tekrar gelirim.",
+      "rating": 5,
+      "photo": "/assets/images/uploads/package-placeholder.jpg"
     }
   ]
 }

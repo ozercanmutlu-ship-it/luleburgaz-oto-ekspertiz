@@ -2,41 +2,49 @@
   "items": [
     {
       "title": "Motor Ekspertizi",
+      "shortDescription": "Motor sagligi ve kompresyon kontrolu.",
       "description": "Motor performansı, kompresyon ve mekanik risklerin detaylı analizi.",
-      "image": "assets/images/services/service-motor.jpg"
+      "image": "/assets/images/uploads/service-placeholder.jpg"
     },
     {
       "title": "Kaporta & Boya Analizi",
+      "shortDescription": "Boya kalinligi ve parca degisim tespiti.",
       "description": "Boya kalınlığı ölçümü, değişen parça tespiti ve şasi kontrolü.",
-      "image": "assets/images/services/service-kaporta.jpg"
+      "image": "/assets/images/uploads/service-placeholder.jpg"
     },
     {
       "title": "Dyno Performans Testi",
+      "shortDescription": "Beygir gucu ve tork olcumu.",
       "description": "Beygir gücü, tork ve performans kaybının ölçümlenmesi.",
       "image": "assets/images/services/service-dyno.jpg"
     },
     {
       "title": "OBD Elektronik Tarama",
+      "shortDescription": "Ariza kodlari ve sistem taramasi.",
       "description": "Elektronik kontrol ünitelerinde arıza kodlarının taranması.",
       "image": "assets/images/services/service-obd.jpg"
     },
     {
       "title": "Fren Testi",
+      "shortDescription": "Fren gucu ve denge olcumu.",
       "description": "Fren sistemi performansının güvenlik odaklı analizi.",
       "image": "assets/images/services/service-fren.jpg"
     },
     {
       "title": "Süspansiyon Testi",
+      "shortDescription": "Yol tutus ve amortisor kontrolu.",
       "description": "Yol tutuş ve süspansiyon bileşenlerinin kontrolü.",
       "image": "assets/images/services/service-suspansiyon.jpg"
     },
     {
       "title": "Airbag Kontrolü",
+      "shortDescription": "Guvenlik sistemleri dogrulama.",
       "description": "Güvenlik sistemleri ve airbag kontrolünün doğrulanması.",
       "image": "assets/images/services/service-airbag.jpg"
     },
     {
       "title": "Yanal Kayma Testi",
+      "shortDescription": "Sasi dengesi ve stabilite olcumu.",
       "description": "Şasi dengesi ve yön stabilitesi için yanal kayma ölçümü.",
       "image": "assets/images/services/service-yanal.jpg"
     }
