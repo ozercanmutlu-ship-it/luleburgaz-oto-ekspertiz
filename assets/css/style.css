@@ -1,21 +1,21 @@
 ﻿/* Lüleburgaz Oto Ekspertiz - Premium Corporate UI */
 :root {
-  --color-bg: #080b10;
-  --color-graphite: #0f141c;
-  --color-graphite-soft: #141a24;
-  --color-surface: #1a212b;
-  --color-text: #f6f7f9;
-  --color-muted: #b5c1d1;
-  --color-accent: #1fa1da;
-  --color-accent-light: #4fc5ff;
-  --color-accent-dark: #11628f;
-  --color-steel: #8f9fb3;
-  --shadow-soft: 0 20px 60px rgba(0, 0, 0, 0.35);
-  --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.35);
-  --radius-lg: 22px;
+  --color-bg: #030712;
+  --color-graphite: #111827;
+  --color-graphite-soft: #1f2937;
+  --color-surface: #111827;
+  --color-text: #f9fafb;
+  --color-muted: #9ca3af;
+  --color-accent: #2563eb;
+  --color-accent-light: #60a5fa;
+  --color-accent-dark: #1d4ed8;
+  --color-steel: #6b7280;
+  --shadow-soft: 0 20px 40px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 10px 25px rgba(0, 0, 0, 0.4);
+  --radius-lg: 20px;
   --radius-md: 16px;
-  --radius-sm: 12px;
-  --transition: 0.3s ease;
+  --radius-sm: 10px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --container-width: 1200px;
 }
 
@@ -76,6 +76,14 @@ a {
 
 .section {
   padding: clamp(64px, 8vw, 120px) 0;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.section.reveal {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .section--graphite {
@@ -141,35 +149,35 @@ p {
 }
 
 .btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.25);
 }
 
 .btn-primary {
-  background: #25d366;
+  background: var(--color-accent);
   color: #fff;
 }
 
 .btn-primary:hover {
-  background: #1ebe5d;
-  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.35);
+  background: var(--color-accent-light);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.4);
 }
 
 .btn-secondary,
 .btn-outline {
   background: transparent;
-  color: #25d366;
-  border: 2px solid #25d366;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
 }
 
 .btn-secondary:hover,
 .btn-outline:hover {
-  background: rgba(37, 211, 102, 0.08);
+  background: rgba(37, 99, 235, 0.1);
 }
 
 .btn-link {
   background: none;
-  color: #25d366;
+  color: var(--color-accent);
   padding: 0;
   border-radius: 0;
   border: 0;
@@ -395,12 +403,10 @@ body.promo-open {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    120deg,
-    rgba(6, 10, 16, 0.92),
-    rgba(6, 10, 16, 0.6),
-    rgba(13, 26, 40, 0.45)
-  );
+  background: linear-gradient(120deg,
+      rgba(6, 10, 16, 0.92),
+      rgba(6, 10, 16, 0.6),
+      rgba(13, 26, 40, 0.45));
   z-index: 1;
 }
 
@@ -719,7 +725,7 @@ body.promo-open {
   z-index: 1;
 }
 
-.cta-band > *:not(.cta-media) {
+.cta-band>*:not(.cta-media) {
   position: relative;
   z-index: 2;
 }
@@ -1111,4 +1117,3 @@ footer {
     transition: none !important;
   }
 }
-

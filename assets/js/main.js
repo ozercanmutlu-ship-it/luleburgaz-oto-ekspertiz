@@ -453,6 +453,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
+  const revealOnScroll = () => {
+    const sections = document.querySelectorAll(".section");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("reveal");
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    sections.forEach((section) => observer.observe(section));
+  };
+  revealOnScroll();
+
   loadSiteSettings();
   loadServices();
   loadPackages();
