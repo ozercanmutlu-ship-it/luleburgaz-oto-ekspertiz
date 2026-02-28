@@ -112,8 +112,8 @@ const blogs = [
     title: "Şase, Podye ve Direk İşlemi Nedir? Neden Çok Tehlikelidir?",
     keywords: "şase işlemi nedir, podye hasarı, direk boyası, ekspertiz şase kontrolü",
     desc: "Araç şasesinde, podyesinde veya direklerinde işlem olmasının neden insan hayatı ve araç fiyatı için kritik olduğunu uzmanımız açıkladı.",
-    excerpt: "İlanda \"Şaseler tertemiz, sadece ufak bir çekiçleme var\" yazan araçlar aslında ne kadar güvenli? Omurga hasarları hakkında acı gerçekler...",
-    content: "<h2>Aracın Temel Omurgası Şasedir</h2><p>İnsan iskeleti için omurga ne ifade ediyorsa, araç için de şase odur. Yürüyen tüm aksamı, kaportayı ve motoru taşıyan en kalın, en sağlam çelik bloklara şasi denir. Aracın çarpışma sırasında katlanarak darbeyi emmesini sağlayan ve kabin içindeki yaşam üçgenini koruyan ana sistem buradadır.</p><h2>Podye ve Direkler Ne Demek?</h2><p><strong>Podyeler (Kılıç Sacı):</strong> Motorun hemen sağında ve solunda yer alan, amortisör kulelerini de taşıyan iskelet parçalarıdır. <strong>Direkler (A, B, C):</strong> Tavanı tutan ve yan kaza darbelerini omuzlayan ana kirişlerdir.</p><h3>İşlemli Demek Ne Demek? Neden Alınmamalı?</h3><p>Eğer bir ekspertiz raporunda şase, podye veya direkte \"Çektirme, Kaynak, Kesme, Pense İzi, Doğrultma veya Macun\" ifadeleri yer alıyorsa; o aracın çelik mukavemeti kalıcı şekilde yok olmuştur. Aynı noktadan alınan yeni bir darbede araç darbeyi sönümleyemeyecek, kağıt gibi katlanacak ve ölümcül risk taşıyacaktır. Ayrıca piyasada çok ciddi oranlarda fiyat kırılmasına sebep olurlar.</p>"
+    excerpt: "İlanda 'Şaseler tertemiz, sadece ufak bir çekiçleme var' yazan araçlar aslında ne kadar güvenli? Omurga hasarları hakkında acı gerçekler...",
+    content: "<h2>Aracın Temel Omurgası Şasedir</h2><p>İnsan iskeleti için omurga ne ifade ediyorsa, araç için de şase odur. Yürüyen tüm aksamı, kaportayı ve motoru taşıyan en kalın, en sağlam çelik bloklara şasi denir. Aracın çarpışma sırasında katlanarak darbeyi emmesini sağlayan ve kabin içindeki yaşam üçgenini koruyan ana sistem buradadır.</p><h2>Podye ve Direkler Ne Demek?</h2><p><strong>Podyeler (Kılıç Sacı):</strong> Motorun hemen sağında ve solunda yer alan, amortisör kulelerini de taşıyan iskelet parçalarıdır. <strong>Direkler (A, B, C):</strong> Tavanı tutan ve yan kaza darbelerini omuzlayan ana kirişlerdir.</p><h3>İşlemli Demek Ne Demek? Neden Alınmamalı?</h3><p>Eğer bir ekspertiz raporunda şase, podye veya direkte 'Çektirme, Kaynak, Kesme, Pense İzi, Doğrultma veya Macun' ifadeleri yer alıyorsa; o aracın çelik mukavemeti kalıcı şekilde yok olmuştur. Aynı noktadan alınan yeni bir darbede araç darbeyi sönümleyemeyecek, kağıt gibi katlanacak ve ölümcül risk taşıyacaktır. Ayrıca piyasada çok ciddi oranlarda fiyat kırılmasına sebep olurlar.</p>"
   },
   {
     slug: "suda-kalmis-sel-hasarli-arac",
@@ -157,10 +157,10 @@ const blogs = [
   },
   {
     slug: "ikinci-elde-airbag-islemli-kacamak-sozleri",
-    title: "İlanda \"Airbagler Orjinal Direnç Yok\" Ne Demek? İnanmalı Mıyız?",
+    title: "İlanda 'Airbagler Orjinal Direnç Yok' Ne Demek? İnanmalı Mıyız?",
     keywords: "airbag direnç yok yalanı, oto ekspertiz garantisi, airbag sök tak sözleri",
     desc: "Araç satıcılarının airbag tamiri üzerine sıklıkla kullandığı yeni nesil 'dirençsiz onarım' yanılgılarına ve tehlikelerine dair profesyonel uyarı.",
-    excerpt: "\"Direnç atılmadı, yenisi pırıl pırıl tamir edildi, orjinal kılıf konuldu\" yalanları ile kazalı aracın nasıl pazarlandığını deşifre ediyoruz.",
+    excerpt: "'Direnç atılmadı, yenisi pırıl pırıl tamir edildi, orjinal kılıf konuldu' yalanları ile kazalı aracın nasıl pazarlandığını deşifre ediyoruz.",
     content: "<h2>Yeni Dolandırıcılık Modası: Dirençsiz Tamir</h2><p>Geçmişte hava yastığı patlak olan araçlara sistemi uyutmak için 2 liralık direnç takıp gösterge lambasını söndürüyorlardı. Ekspertiz cihazları bu direnç farkını hemen yakalamaya başlayınca yeni bir modayla ortaya çıktılar: \"Airbag tamirli ama çalışır durumda, direnç yok tüp takıldı!\"</p><h2>Bu Tamir Canınızı Kurtarır Mı?</h2><p>Otomotiv ana üreticileri, patlayan bir airbag sisteminin sadece bir terzinin dikişi doldurduğu gibi pamukla veya sahte çıkma gaz tüpleriyle \"doldurulmasına\" şiddetle karşı çıkar. Çünkü orijinal parçalar kaza anında 20 milisaniye içinde patlamaya kalibre edilmiştir. Yan sanayi veya merdiven altı tamir edilmiş hava yastıkları kaza anında ya çok geç açılarak yüzünüzü çelik direksiyona çarpmanıza sebep olur ya da açılırken yanlış bir basınçla boynunuza zarar verir.</p><h3>Risk Alınmamalıdır</h3><p>Airbag aksamı araba parçası değil, hayati güvenlik tahliyesidir. Bu nedenle Lüleburgaz Oto Ekspertiz merkezimizde airbag torpido dikişleri işlem görmüş her araca \"Airbag İşlemlidir, Fabrikasyon Dışı Müdahale Vardır\" uyarısı kanunen yazılır. Parçalar %100 yetkili serviste sıfır olarak değiştirilmediyse o güvenliğe güvenmeyin!</p>"
   }
 ];
@@ -189,7 +189,7 @@ blogs.forEach((b, index) => {
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "${b.title}",
+  "headline": "${b.title.replace(/"/g, "'")}",
   "image": "${imageUrl}",
   "datePublished": "2026-02-28",
   "author": {
@@ -203,7 +203,7 @@ blogs.forEach((b, index) => {
   const contentRegex = /<div class="container article" data-blog-content>.*?<\/div>/s;
   const newContent = `<div class="container article" data-blog-content>
   <figure>
-    <img src="assets/images/blog/blog-feature.jpg" alt="${b.title}" loading="lazy" />
+    <img src="assets/images/blog/blog-feature.jpg" alt="${b.title.replace(/"/g, "'")}" loading="lazy" />
   </figure>
   ${b.content}
 </div>`;
@@ -212,11 +212,15 @@ blogs.forEach((b, index) => {
 
   blogListHtmlItems += `
             <article class="blog-card">
-              <img src="assets/images/blog/blog-card-${imgNum}.jpg" alt="${b.title}" loading="lazy" />
-              <p class="eyebrow">Rehber</p>
-              <h2>${b.title}</h2>
-              <p>${b.excerpt}</p>
-              <a class="btn btn-outline" href="${b.slug}.html">Devamını Oku</a>
+              <div class="blog-image-wrapper">
+                <img src="assets/images/blog/blog-card-${imgNum}.jpg" alt="${b.title.replace(/"/g, "'")}" loading="lazy" />
+              </div>
+              <div class="blog-content-wrapper">
+                <p class="eyebrow">Rehber</p>
+                <h2>${b.title}</h2>
+                <p>${b.excerpt}</p>
+                <a class="btn btn-outline" href="${b.slug}.html">Devamını Oku</a>
+              </div>
             </article>`;
 });
 
