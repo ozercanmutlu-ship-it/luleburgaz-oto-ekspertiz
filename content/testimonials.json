@@ -1,39 +1,25 @@
 {
   "items": [
     {
-      "name": "Selçuk K.",
-      "company": "Luleburgaz",
-      "comment": "Aracı almadan önce getirdim, tüm detaylarıyla anlattılar. Güvenilir bir işletme.",
+      "name": "Mesut K.",
+      "company": "Edirne",
+      "comment": "Lüleburgaz'a araç almak için geldiğimde burayı tercih ettim. Dyno testi ve kaporta boya raporunu çok anlaşılır bir dille izah ettiler. Aldığım araçta gizlenmiş bir değişeni nokta atışı buldular. Çok şeffaf ve dürüst bir ekip. Gönül rahatlığıyla gelebilirsiniz.",
       "rating": 5,
       "photo": "assets/images/testimonials/testimonial-1.jpg"
     },
     {
-      "name": "Merve A.",
-      "company": "Trakya",
-      "comment": "Raporu dijital olarak aldım, her kalemi net gördüm. Hızlı ve profesyoneller.",
+      "name": "Esra B.",
+      "company": "Çorlu",
+      "comment": "İlk arabamı alırken dolandırılmaktan çok korkuyordum. Premium paketi seçtik, motor ustası abi her parçayı tek tek bana göstererek anlattı. Raporu dijital olarak PDF şeklinde telefonuma da yolladılar. İlgi ve alaka muazzamdı.",
       "rating": 5,
       "photo": "assets/images/testimonials/testimonial-2.jpg"
     },
     {
-      "name": "Cemal Ö.",
-      "company": "Luleburgaz",
-      "comment": "Dyno testi sayesinde aracı doğru fiyata aldım. Süreç çok şeffaftı.",
+      "name": "Kemal T.",
+      "company": "Lüleburgaz",
+      "comment": "Sanayide diğer yerlere de gittim ama buradaki cihazlar son teknoloji. OBD beyin testi ile aracın beyninden daha önce silinmiş olan kilometre hatasını çıkardılar. Resmen büyük bir zarardan kurtuldum. Verdiğim para helal olsun.",
       "rating": 5,
       "photo": "assets/images/testimonials/testimonial-3.jpg"
-    },
-    {
-      "name": "Ayse T.",
-      "company": "Babaeski",
-      "comment": "Kaporta ve boya raporu netti, pazarlikta elim guclendi.",
-      "rating": 4,
-      "photo": "/assets/images/uploads/package-placeholder.jpg"
-    },
-    {
-      "name": "Mehmet R.",
-      "company": "Corlu",
-      "comment": "Hizli randevu ve detayli rapor. Tekrar gelirim.",
-      "rating": 5,
-      "photo": "/assets/images/uploads/package-placeholder.jpg"
     }
   ]
 }

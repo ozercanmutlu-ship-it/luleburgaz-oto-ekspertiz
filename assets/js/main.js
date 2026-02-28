@@ -1,4 +1,4 @@
-const PROMO_WHATSAPP_NUMBER = "+905376438798";
+const PROMO_WHATSAPP_NUMBER = "+905316102817";
 const PROMO_STORAGE_KEY = "loePromoDismissed";
 
 document.addEventListener("DOMContentLoaded", () => {
